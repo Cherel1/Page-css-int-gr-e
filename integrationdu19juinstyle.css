@@ -1,0 +1,137 @@
+* {
+    text-decoration: none;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Header */
+  header {
+    min-height: 200px;
+  }
+  .logo {
+    text-align: center;
+    margin: 42px 0 20px 0px;
+    font-size: 63px;
+  }
+  .logo a {
+    color: black;
+  }
+  .logo::first-letter {
+    color: #0ac3a7;
+    text-transform: uppercase;
+    font-size: 66px;
+  }
+  .logo span {
+    color: #0ac3a7;
+    text-transform: uppercase;
+    font-size: 66px;
+  }
+  header h2 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  hr {
+    border: 2px solid #cccccc;
+    width: 80%;
+    margin: 0 auto;
+  }
+  /*********************/
+  /* le main content */
+  /* article */
+  main {
+    width: 100%;
+  }
+  /* article */
+  article {
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  /* image de l'article */
+  .image_article {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center
+  }
+  /* entete de l'article */
+  .contenu_introduction .entete {
+    font-size: 26px;
+    color: #99999c;
+    padding: 20px 0;
+    margin: 0px;
+  }
+  .contenu_introduction_paragraphe {
+    font-size: 23px;
+  }
+  /* les contenus  paragraphe */
+  .contenu_paragraphe {
+    font-size: 1.4em;
+    margin: 0px;
+  }
+  .back_end_section h2,
+  .front_end_section h2,
+  .portfolio h2 {
+    color: #777780;
+    padding-top: 20px;
+    margin: 0px;
+  }
+  .back_end_section h2 a,
+  .front_end_section h2 a {
+    color: #ed1243;
+  }
+  /* les listes */
+  .liste_back,
+  .liste_front {
+    margin: 0 0 0 2em;
+    padding: 1em 0;
+  }
+  .liste_back li,
+  .liste_front li,
+  .liste_front li a,
+  .liste_back li a {
+    color: #34d913;
+  }
+  
+  /* Section Images nature */
+  .centrage {.image nature: center;}
+  .images_nature {
+    display: flex;
+    flex-wrap: wrap;
+    width: block;
+    margin: auto;
+    justify-content: left;
+    margin: 0;
+  }
+  
+  .images_nature a {
+    display: block;
+    width: auto;
+  }
+  .images_nature a img {
+    width: block;
+    margin: auto;
+  }
+  /*footer*/
+  footer {
+    min-height: 60px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer p {
+    font-size: 25px;
+    margin: 0px;
+  }
+  footer p a {
+    color: green;
+  }
+  
